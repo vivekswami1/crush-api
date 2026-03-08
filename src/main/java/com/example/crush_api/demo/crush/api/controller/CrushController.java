@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api")
 public class CrushController {
 
+    //deployed on--> render.com
+    // https://crush-api-01ol.onrender.com
     private final CrushService crushService;
 
     public CrushController(CrushService crushService) {
