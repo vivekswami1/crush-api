@@ -14,7 +14,7 @@ public class CrushService {
     private Random random = new Random();
 
     public String personalizedMessage(String name){
-        return "Hi " + name + ", this API exists because someone thinks you're cute.";
+        return "Heyy " + name + ", this API exists because someone thinks you're cute :))";
     }
 
     public String comboLine() {
@@ -100,7 +100,7 @@ public class CrushService {
         int percentage = random.nextInt(51) + 50;
         // gives result between 50–100
 
-        if(name2.equalsIgnoreCase("Nandini")){
+        if(name2.equalsIgnoreCase("Nandini") || name2.equalsIgnoreCase("Yashvi")){
             percentage = 95 + random.nextInt(5);
         }
 
